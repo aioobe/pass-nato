@@ -6,7 +6,7 @@ An extension for `pass` that reads passwords out loud (through the speakers) usi
 
 1. Download the [NATO speaker script](https://github.com/aioobe/nato-speaker) and put it somewhere on your `$PATH`.
 2. Create `~/.password-store/.extensions` if it does not already exist
-3. Download the [nato.bash](https://github.com/aioobe/nato-speaker/releases/download/1.0/nato.sh) file and put it in the extensions directory.
+3. Download the [nato.bash](https://raw.githubusercontent.com/aioobe/pass-nato/master/nato.bash) file and put it in the extensions directory.
 4. Add the following to your shell configuration
     ```
     export PASSWORD_STORE_ENABLE_EXTENSIONS=true
